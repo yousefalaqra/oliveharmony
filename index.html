@@ -33,7 +33,7 @@
         }
 
         .hero-overlay {
-            background: rgba(0, 0, 0, 0.6); /* Overlay with 60% opacity */
+            background: rgba(0, 0, 0, 0.3); /* Slight overlay for better text readability */
             position: absolute;
             top: 0;
             left: 0;
@@ -57,7 +57,7 @@
 
         .cta-button {
             display: block;
-            background-color: #764b36; /* Olive branch brown */
+            background-color: #718b69; /* Olive leaf green */
             color: #ffffff;
             text-align: center;
             text-decoration: none;
@@ -65,6 +65,7 @@
             padding: 12px 20px; /* Adjusted padding for mobile */
             margin: 20px auto;
             border-radius: 5px;
+            border: none;
         }
 
         .cta-button:hover {
@@ -97,11 +98,12 @@
     <section class="hero">
         <div class="hero-overlay"></div>
         <div class="container">
-            <h1>Welcome to Olive Harmony</h1>
-            <p>At Olive Harmony, we are passionate about peace, positivity, and the natural beauty of essential oils. We travel the world to find the purest and most organic oils for your hair and skin beauty.</p>
-            <p class="cta-text">Join our waiting list and be the first to experience the beauty of nature for your hair and skin.</p>
-            <input type="email" class="cta-email" placeholder="Enter your email to join the waiting list">
-            <a class="cta-button" href="#">Join Now</a>
+            <h1>Olive Harmony - Pure & Organic Essential Oils</h1>
+            <p>Experience the vitality of nature with our pristine and organic essential oils. We travel the world to bring you the beauty, serenity, and positivity of nature's finest. Join our waiting list and be the first to experience the harmony of Olive Harmony.</p>
+            <form action="mailto:jo@oliveharmony.com" method="post">
+                <input type="email" class="cta-email" placeholder="Enter your email to join the waiting list" name="user_email">
+                <input type="submit" class="cta-button" value="Join Now">
+            </form>
         </div>
     </section>
     <footer>

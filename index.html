@@ -5,17 +5,22 @@
     <title>Olive Harmony - Essential Oils</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             font-family: 'Raleway', sans-serif;
-        }
-        body {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
             background-color: #ffffff; /* White background */
             font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full viewport height */
         }
 
         .hero {
@@ -24,6 +29,7 @@
             text-align: center;
             padding: 60px 0;
             position: relative;
+            flex: 1; /* Expands to fill available space */
         }
 
         .hero-overlay {
@@ -83,7 +89,7 @@
         </div>
     </section>
     <footer>
-        <p>Contact us at contact@oliveharmony.com</p>
+        <p>Contact us at <a href="mailto:jo@oliveharmony.com">jo@oliveharmony.com</a></p>
     </footer>
 </body>
 </html>
